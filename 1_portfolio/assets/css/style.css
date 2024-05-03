@@ -493,3 +493,42 @@ body {
 .main-section__questions-text {
   max-width: 50px;
 }
+
+.second-section {
+  min-height: 700px;
+  background: #e4dbd9;
+}
+
+.second-section__wrapper {
+  display: flex;
+  align-items: start;
+}
+
+.second-section__wrapper-left {
+  margin-right: 150px;
+}
+
+.second-section__title {
+  padding-top: 50px;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.second-section__hr {
+  width: 79px;
+  color: #000;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.second-section__text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 121%;
+}
+
+.second-section__img {
+  width: 600px;
+}
