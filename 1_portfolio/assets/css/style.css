@@ -824,3 +824,36 @@ body {
   border-radius: 49px;
   /* opacity: 0.1 */
 }
+
+.footer-section {
+  min-height: 250px;
+  background: #8f847a;
+}
+
+.footer-section__wrapper {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-section__title {
+  color: #FFF;
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.footer-section__link {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-section__link:hover {
+  text-decoration: underline;
+}
+
+.footer-section__li {
+  margin-bottom: 10px;
+}
