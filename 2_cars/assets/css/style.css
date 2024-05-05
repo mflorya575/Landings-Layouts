@@ -690,8 +690,57 @@ body {
 }
 
 .third-section {
-  min-height: 280px;
+  min-height: 824px;
   background: #E5DDE5;
+}
+
+.third-section__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  padding-top: 170px;
+}
+
+.third-section__card {
+  border: 2px solid black;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.third-section__title {
+  color: #3a3838;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.3px;
+  padding-top: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.third-section__img {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.third-section__text1 {
+  text-align: center;
+  margin-top: 55px;
+  color: #3a3838;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+}
+
+.third-section__text2 {
+  text-align: center;
+  color: #3a3838;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+  padding-bottom: 30px;
 }
 
 .fourth-section {
