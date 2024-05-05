@@ -745,3 +745,45 @@ body {
 #orange3 {
   color: #FB9333;
 }
+
+.fifth-section {
+  min-height: 764px;
+  background: #c9c0b4;
+  position: relative;
+}
+
+.fifth-section__title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+  padding-top: 85px;
+  margin-bottom: 97px;
+}
+
+.fifth-section__block {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 44px;
+}
+
+.fifth-section__text {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.fifth-section__img1 {
+  position: absolute;
+  top: 189px;
+  left: 545px;
+}
+
+.fifth-section__img2 {
+  position: absolute;
+  top: 347px;
+  left: 695px;
+}
