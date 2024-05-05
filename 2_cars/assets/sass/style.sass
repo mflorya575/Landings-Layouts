@@ -1,0 +1,130 @@
+@import "normalizes.scss"
+@import "resets.scss"
+
+*
+    box-sizing: border-box
+
+$color-blue: #4B9EFF
+$color-orange: #e7b28c
+
+body
+    position: relative
+    overflow-x: hidden
+    
+.container
+    position: relative
+    max-width: 1140px
+    margin: 0 auto
+
+.main-section
+    min-height: 1500px
+    background: #1D4ED8
+    margin-top: 21px
+    &__header
+        margin-right: 72px
+    &__mobile-spans
+        margin-right: 53px
+        margin-left: 38px
+        padding-bottom: 70px
+    &__logo-link
+        text-decoration: none
+    &__logo-text
+        color: rgb(0, 0, 0)
+        font-size: 26px
+        font-weight: 600
+        line-height: 42px
+        letter-spacing: 3px
+    &__nav
+        display: flex
+    &__ul
+        display: flex
+        margin-right: 73px
+    &__link
+        color: rgb(0, 0, 0)
+        font-size: 24px
+        font-weight: 700
+        line-height: 48px
+        letter-spacing: 4%
+        text-decoration: none
+        margin-right: 100px
+        &:hover
+            text-decoration: underline
+    &__tel-text
+        text-align: end
+    &__flex-header
+        display: flex
+        align-items: center
+        background: #FFF
+        margin-top: 21px
+    &__tel-text
+        color: rgb(0, 0, 0)
+        font-size: 20px
+        font-weight: 700
+        line-height: 27px
+        letter-spacing: 4%
+    &__wrapper
+        padding-top: 209px
+    &__text
+        color: rgb(255, 255, 255)
+        font-size: 64px
+        font-weight: 600
+        line-height: 60px
+        letter-spacing: 0.3px
+        margin-bottom: 40px
+    &__text2
+        color: rgb(255, 255, 255)
+        font-size: 24px
+        font-weight: 400
+        line-height: 24px
+        letter-spacing: 4%
+        margin-bottom: 41px
+    &__btn
+        color: rgb(255, 255, 255)
+        font-size: 29px
+        font-weight: 700
+        line-height: 24px
+        letter-spacing: 4%
+        border-radius: 24px
+        margin-bottom: 293px
+        border: none
+        padding: 25px 78px
+        box-shadow: 4px 10px 100px 0px rgb(191, 106, 27)
+        background: rgb(251, 147, 51)
+        transition: .3s all
+        &:hover
+            background: rgb(201, 116, 37)
+            cursor: pointer
+    &__block
+        border-radius: 35px
+        box-shadow: 0px 20px 40px 0px rgba(255, 211, 71, 0.14)
+        background: rgb(255, 255, 255)
+        width: 288px
+        display: flex
+        align-items: center
+        gap: 11px
+    &__smile
+        padding: 5px 0 5px 7px
+    &__block-star
+        display: flex
+        align-items: center
+        gap: 8px
+    &__text-school
+        color: rgb(87, 87, 87)
+        font-size: 14px
+        font-weight: 600
+        line-height: 21px
+    &__text-rev
+        color: rgb(44, 42, 42)
+        font-size: 12px
+        font-weight: 400
+        line-height: 18px
+
+#main-section__tel-span
+    color: rgb(251, 147, 51)
+    font-size: 32px
+
+#main-section__orange
+    color: rgb(251, 147, 51)
+
+#main-section__id-rev
+    color: rgb(87, 87, 87)
