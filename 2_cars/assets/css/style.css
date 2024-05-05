@@ -406,7 +406,7 @@ body {
 }
 
 .main-section {
-  min-height: 1500px;
+  min-height: 1080px;
   background: #1D4ED8;
   margin-top: 21px;
 }
@@ -562,4 +562,129 @@ body {
 
 #main-section__id-rev {
   color: #575757;
+}
+
+.second-section {
+  min-height: 961px;
+  background: url(../images/bg-image2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second-section__wrapper {
+  padding-top: 169px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 171px;
+}
+
+.second-section__text1 {
+  color: #fb9333;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.3px;
+}
+
+.second-section__text2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4%;
+}
+
+.second-section__input1 {
+  width: 411px;
+  height: 108px;
+  border: 2px solid white;
+  border-radius: 27px;
+  background: rgba(217, 217, 217, 0.5);
+  margin-bottom: 79px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.second-section__input1::placeholder {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4%;
+  text-align: center;
+}
+
+.second-section__input2 {
+  width: 411px;
+  height: 108px;
+  border: 2px solid white;
+  border-radius: 27px;
+  background: rgba(217, 217, 217, 0.5);
+  margin-bottom: 79px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.second-section__input2::placeholder {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4%;
+  text-align: center;
+}
+
+.second-section__btn {
+  border-radius: 27px;
+  box-shadow: 4px 10px 100px 0px #bf6a1b;
+  background: #fb9333;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4%;
+  padding: 42px 100px;
+  border: none;
+  transition: .3s all;
+}
+
+.second-section__btn:hover {
+  background: #c97425;
+  cursor: pointer;
+}
+
+.second-section__wrapper2 {
+  display: flex;
+  gap: 117px;
+  justify-content: end;
+}
+
+.second-section__block1 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.second-section__block2 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.second-section__text-icon {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 4%;
 }
