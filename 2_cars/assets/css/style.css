@@ -691,7 +691,7 @@ body {
 
 .third-section {
   min-height: 280px;
-  background: #c6cbd8;
+  background: #E5DDE5;
 }
 
 .fourth-section {
@@ -738,7 +738,7 @@ body {
 
 .fourth-section__img {
   position: absolute;
-  top: 210px;
+  top: 211px;
   left: 370px;
 }
 
@@ -748,7 +748,7 @@ body {
 
 .fifth-section {
   min-height: 764px;
-  background: #c9c0b4;
+  background: #E5DDE5;
   position: relative;
 }
 
@@ -786,4 +786,104 @@ body {
   position: absolute;
   top: 347px;
   left: 695px;
+}
+
+.sixth-section {
+  min-height: 779px;
+  background: #1D4ED8;
+}
+
+.sixth-section__title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+}
+
+.seventh-section {
+  min-height: 3150px;
+  background: #E5DDE5;
+  position: relative;
+}
+
+.seventh-section__title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+  padding-left: 85px;
+  margin-bottom: 120px;
+}
+
+.seventh-section__wrapper {
+  padding-top: 129px;
+  border-radius: 50px;
+  background: rgba(255, 241, 222, 0.5);
+  position: absolute;
+  top: 129px;
+  width: 1212px;
+}
+
+.seventh-section__block {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 70px;
+  padding-left: 151px;
+}
+
+.seventh-section__img {
+  width: 122px;
+  height: 122px;
+}
+
+.seventh-section__title-mini {
+  color: #7d7272;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+}
+
+.seventh-section__text {
+  color: #7d7272;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.seventh-section__img-road {
+  position: absolute;
+  top: 1900px;
+  left: -190px;
+}
+
+.seventh-section__title2 {
+  padding-top: 2370px;
+  color: black;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.3px;
+  margin-bottom: 63px;
+}
+
+.seventh-section__text1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 75px;
+}
+
+.seventh-section__text2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.seventh-section__img-lic {
+  position: absolute;
+  top: 2260px;
+  left: 700px;
 }
