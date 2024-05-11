@@ -747,3 +747,137 @@ body {
 }
 
 /* blog.html */
+.blog-section {
+  min-height: 1000px;
+  margin-top: 55px;
+}
+
+.blog-section__title {
+  color: #255582;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 107.2%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 51px;
+}
+
+.blog-section__img1 {
+  margin-bottom: 22px;
+}
+
+.blog-section__text1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 155%;
+  margin-bottom: 22px;
+}
+
+.blog-section__text11 {
+  background-image: url(../images/blog/bg-line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  color: #255582;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 155%;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 22px;
+}
+
+.blog-section__title2 {
+  color: #255582;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 47px;
+}
+
+.blog-section__form {
+  display: flex;
+  gap: 10px;
+}
+
+.blog-section__input1 {
+  width: 400px;
+  height: 61px;
+  background: none;
+  border: 3px solid #e3e3e3;
+  border-radius: 15px;
+  margin-bottom: 33px;
+  color: #4e4646;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding: 19px 0 18px 24px;
+}
+
+.blog-section__input1::placeholder {
+  color: #b0b0b0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.blog-section__input2 {
+  width: 400px;
+  height: 61px;
+  background: none;
+  border: 3px solid #e3e3e3;
+  border-radius: 15px;
+  margin-bottom: 33px;
+  color: #4e4646;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding: 19px 0 18px 24px;
+}
+
+.blog-section__input2::placeholder {
+  color: #b0b0b0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.blog-section__btn {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  box-shadow: inset 0px -4px 9.6px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #dc0000;
+  border: none;
+  border-radius: 51px;
+  padding: 18px 138px;
+  transition: .3s all;
+}
+
+.blog-section__btn:hover {
+  background: #de4242;
+  cursor: pointer;
+}
+
+.blog-section__descr {
+  color: #B0B0B0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-bottom: 60px;
+}
+
+#descr {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+#descr:hover {
+  text-decoration: underline;
+}
