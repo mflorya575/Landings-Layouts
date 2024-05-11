@@ -1,0 +1,103 @@
+@import "normalizes.scss"
+@import "resets.scss"
+
+*
+    box-sizing: border-box
+
+$color-red: rgb(220, 0, 0)
+$color-red-hover: rgb(222, 66, 66)
+
+body
+    position: relative
+    overflow-x: hidden
+    
+.container
+    position: relative
+    max-width: 1218px
+    margin: 0 auto
+
+.main-section
+    min-height: 900px
+    background-image: url(../images/index/bg-main.png)
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    &__title
+        color: rgb(37, 85, 130)
+        font-size: 45px
+        font-weight: 800
+        line-height: 107.2%
+        text-transform: uppercase
+        text-align: center
+        padding-top: 45px
+        margin-bottom: 20px
+    &__title2
+        color: rgb(39, 39, 39)
+        font-size: 26px
+        font-weight: 700
+        line-height: 32px
+        text-align: center
+        margin-bottom: 25px
+    &__mini-wrapper
+        margin-bottom: 37px
+    &__block-stars
+        display: flex
+        align-items: center
+        gap: 16px
+        margin-bottom: 5px
+    &__block-yandex
+        display: flex
+        align-items: center
+        gap: 8px
+    &__text5
+        color: rgb(39, 39, 39)
+        font-size: 26px
+        font-weight: 700
+        line-height: 32px
+    &__text-stars
+        color: rgb(94, 94, 94)
+        font-size: 16px
+        font-weight: 500
+        line-height: 20px
+    &__title3
+        color: rgb(39, 39, 39)
+        font-size: 32px
+        font-weight: 700
+        line-height: 39px
+        margin-bottom: 34px
+    &__li
+        color: rgb(39, 39, 39)
+        font-size: 26px
+        font-weight: 500
+        line-height: 32px
+        margin-bottom: 20px
+        &::before
+            content: url(../icons/index/circle.svg)
+            margin-right: 20px
+    &__block-list
+        display: flex
+        gap: 47px
+        margin-bottom: 20px
+    &__btn
+        border-radius: 51px
+        box-shadow: inset 0px -4px 9.6px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+        background: $color-red
+        border: none
+        color: rgb(255, 255, 255)
+        font-size: 20px
+        font-weight: 700
+        line-height: 24px
+        padding: 19px 138px
+        transition: .3s all
+        &:hover
+            background: $color-red-hover
+            cursor: pointer
+
+
+
+
+
+    &__bg-image
+        padding-top: 60px
+        display: block
+        margin: 0 auto
