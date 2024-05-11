@@ -514,3 +514,57 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.second-section {
+  min-height: 300px;
+  padding-top: 38px;
+}
+
+.second-section__title {
+  color: #255582;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 55px;
+  max-width: 708px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.second-section__wrapper {
+  margin-top: 47px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+.second-section__card {
+  border-radius: 50px;
+  background: rgba(145, 216, 255, 0.13);
+  height: 432px;
+}
+
+.second-section__flex-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 32px 55px 0 27px;
+}
+
+.second-section__mini-title {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  max-width: 226px;
+}
+
+.second-section__text {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 328px;
+  padding: 0 32px 0 32px;
+}
