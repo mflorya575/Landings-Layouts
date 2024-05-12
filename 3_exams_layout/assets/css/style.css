@@ -1098,6 +1098,10 @@ body {
     margin-right: 0;
     margin-bottom: 24px;
   }
+  /* blog.html */
+  .blog-section__img1 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1119,6 +1123,15 @@ body {
   }
   .fifth-section__iframe {
     max-width: 708px;
+  }
+  /* blog.html */
+  .blog-section {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  .blog-section__form {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -1288,5 +1301,84 @@ body {
   }
   .fifth-section__container3 {
     margin-bottom: 24px;
+  }
+  /* blog.html */
+  .blog-section__title {
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 107.2%;
+    margin-bottom: 25px;
+  }
+  .blog-section__text1 {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 155%;
+  }
+  .blog-section__text11 {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 155%;
+    height: 80px;
+  }
+  .blog-section__title2 {
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 107.2%;
+    margin-bottom: 25px;
+  }
+  .blog-section__input1 {
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: #4e4646;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    padding: 19px 0 18px 24px;
+  }
+  .blog-section__input1::placeholder {
+    color: #b0b0b0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .blog-section__input2 {
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: #4e4646;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    padding: 19px 0 18px 24px;
+  }
+  .blog-section__input2::placeholder {
+    color: #b0b0b0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .blog-section__btn {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 14px 61px;
+  }
+  .blog-section__descr {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: center;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    padding-top: 10px;
   }
 }
