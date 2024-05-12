@@ -1107,6 +1107,65 @@ body {
   border-radius: 0 0 50px 50px;
 }
 
+/* vacansy.html */
+.vacansy-section {
+  min-height: 500px;
+  margin-top: 55px;
+}
+
+.vacansy-section__title {
+  color: #255582;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 107.2%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.vacansy-section__text {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%;
+  text-align: center;
+  margin-bottom: 59px;
+}
+
+.vacansy-section__wrapper {
+  display: flex;
+}
+
+.vacansy-section__wrapper-left {
+  margin-right: 40px;
+}
+
+.vacansy-section__descr {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 107.2%;
+  margin-bottom: 38px;
+}
+
+.vacansy-section__block-tel {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 15px;
+}
+
+.vacansy-section__text-tel {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 31px;
+}
+
+.vacansy-section__block-ss {
+  display: flex;
+  gap: 15px;
+}
+
 /* adaptives */
 @media (max-width: 1290px) {
   /* index.html */
