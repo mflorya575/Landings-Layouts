@@ -808,7 +808,7 @@ body {
 .blog-section__input1 {
   width: 400px;
   height: 61px;
-  background: none;
+  background: #FFFFFF;
   border: 3px solid #e3e3e3;
   border-radius: 15px;
   margin-bottom: 33px;
@@ -829,7 +829,7 @@ body {
 .blog-section__input2 {
   width: 400px;
   height: 61px;
-  background: none;
+  background: #FFFFFF;
   border: 3px solid #e3e3e3;
   border-radius: 15px;
   margin-bottom: 33px;
@@ -1166,6 +1166,98 @@ body {
   gap: 15px;
 }
 
+/* repetitor.html */
+.repetitor-section {
+  min-height: 500px;
+  padding-top: 55px;
+  background: #ECF6FF;
+}
+
+.repetitor-section__title {
+  color: #255582;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 107.2%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 49px;
+}
+
+.repetitor-section__wrapper {
+  display: flex;
+  border-radius: 50px;
+  background: white;
+  margin-bottom: 92px;
+}
+
+.repetitor-section__wrapper-right {
+  padding: 40px 117px 0 0;
+}
+
+.repetitor-section__img {
+  padding: 20px 0 118px 20px;
+  margin-right: 50px;
+}
+
+.repetitor-section__text1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+}
+
+.repetitor-section__text2 {
+  color: #255582;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.repetitor-section__text3 {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 13px;
+}
+
+.repetitor-section__li {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 29px;
+}
+
+.repetitor-section__li::before {
+  content: url(../icons/repetitor/line_li.svg);
+  margin-right: 20px;
+}
+
+.repetitor-section__btn {
+  border-radius: 51px;
+  border: none;
+  box-shadow: inset 0px -4px 9.6px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #dc0000;
+  padding: 15px 29px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  transition: .3s all;
+}
+
+.repetitor-section__btn:hover {
+  background: #de4242;
+  cursor: pointer;
+}
+
+#repetitor-dop__ul {
+  margin-bottom: 20px;
+}
+
 /* adaptives */
 @media (max-width: 1290px) {
   /* index.html */
@@ -1434,7 +1526,7 @@ body {
   .blog-section__input1 {
     width: 200px;
     height: 30px;
-    background: none;
+    background: #FFFFFF;
     border: 1px solid #e3e3e3;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -1453,7 +1545,7 @@ body {
   .blog-section__input2 {
     width: 200px;
     height: 30px;
-    background: none;
+    background: #FFFFFF;
     border: 1px solid #e3e3e3;
     border-radius: 10px;
     margin-bottom: 15px;
