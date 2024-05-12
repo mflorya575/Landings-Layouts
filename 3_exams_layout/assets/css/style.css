@@ -1342,6 +1342,76 @@ body {
   margin-right: 24px;
 }
 
+.blogex-section {
+  min-height: 900px;
+  padding-top: 55px;
+  background: #ECF6FF;
+}
+
+.blogex-section__title {
+  margin-bottom: 55px;
+  color: #255582;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 107.2%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blogex-section__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 585px);
+  gap: 48px;
+  margin-bottom: 46px;
+}
+
+.blogex-section__card {
+  border-radius: 50px;
+  background: white;
+  width: 586px;
+  height: 720px;
+}
+
+.blogex-section__text1 {
+  margin-top: 30px;
+  margin-bottom: 22px;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+}
+
+.blogex-section__text2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 500px;
+  text-align: center;
+  padding: 0 0 26px 100px;
+}
+
+.blogex-section__btn {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 51px;
+  border: none;
+  padding: 15px 15px;
+  box-shadow: inset 0px -4px 9.6px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #dc0000;
+  transition: .3s all;
+}
+
+.blogex-section__btn:hover {
+  background: #de4242;
+  cursor: pointer;
+}
+
 /* adaptives */
 @media (max-width: 1290px) {
   /* index.html */
