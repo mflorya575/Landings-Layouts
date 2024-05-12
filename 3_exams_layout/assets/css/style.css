@@ -1258,6 +1258,38 @@ body {
   margin-bottom: 20px;
 }
 
+/* our-results.html */
+.results-section {
+  min-height: 500px;
+  padding-top: 55px;
+}
+
+.results-section__title {
+  color: #255582;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 107.2%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.results-section__img {
+  max-width: 100%;
+}
+
+.results-section__text {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-top: 20px;
+  margin-bottom: 74px;
+}
+
+#red {
+  color: #dc0000;
+}
+
 /* adaptives */
 @media (max-width: 1290px) {
   /* index.html */
