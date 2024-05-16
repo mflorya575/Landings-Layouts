@@ -1,20 +1,22 @@
-@import "normalizes.scss"
-@import "resets.scss"
+
 
 *
     box-sizing: border-box
 
 $color-blue: #4B9EFF
-$color-blue-hover: #1b1b21
+$color-blue-hover: linear-gradient(141.15deg, rgba(169, 138, 213, 0) 0.766%,rgba(42, 14, 82, 0.64) 119.459%)
+$color-blue-active: linear-gradient(141.15deg, rgba(29, 21, 44, 0) 0.766%,rgba(29, 19, 43, 0.64) 119.459%)
 
 body
     position: relative
     overflow-x: hidden
-    background: #040405
+    /* background: #040405 */
+    /* background: #eff5f9 */
+    background: linear-gradient(162.94deg, rgb(18, 20, 26) 8.774%,rgba(0, 10, 44, 0.79) 75.516%)
     
 .container
     position: relative
-    max-width: 960px
+    max-width: 1100px
     margin: 0 auto
 
 .header
@@ -22,6 +24,7 @@ body
     display: flex
     align-items: center
     justify-content: space-between
+    margin-bottom: 109px
     &__ul
         display: flex
     &__li
@@ -47,9 +50,84 @@ body
         &:hover
             background: $color-blue-hover
             cursor: pointer
+        &:active
+            background: $color-blue-active
     &__btn-link
         color: rgb(255, 255, 255)
         font-size: 16px
         font-weight: 400
         line-height: 16px
         text-decoration: none
+
+.main-section
+    margin-top: 100px
+    margin-bottom: 100px
+    &__wrapper
+        display: flex
+        position: relative
+    &__text
+        color: rgb(239, 239, 239)
+        font-size: 24px
+        font-weight: 400
+        line-height: 39px
+        max-width: 500px
+        font-family: sans-serif
+    &__img
+        position: absolute
+        top: -60px
+        left: 310px
+        width: 1100px
+
+#blue
+    color: rgb(81, 81, 228)
+
+.second-section
+    &__title
+        color: rgb(239, 239, 239)
+        margin-bottom: 40px
+        font-family: sans-serif
+        font-size: 38px
+        font-weight: 500
+        line-height: 26px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__block
+        display: flex
+        align-items: center
+        gap: 20px
+    &__text
+        color: rgb(239, 239, 239)
+        font-size: 24px
+        font-weight: 300
+        line-height: 100%
+    &__icon
+        width: 30px
+
+.map-section
+    background: #141414
+    min-height: 700px
+    &__wrapper
+        position: relative
+    &__title
+        color: rgb(239, 239, 239)
+        margin-bottom: 40px
+        font-family: sans-serif
+        font-size: 38px
+        font-weight: 500
+        line-height: 56px
+        padding-top: 50px
+    &__img1
+        position: absolute
+        top: 100px
+        left: -60px
+        width: 1000px
+        height: 545px
+    &__img2
+        position: absolute
+        top: 150px
+        left: 800px
+        width: 400px
+        height: 400px
+        border-radius: 20px
+
