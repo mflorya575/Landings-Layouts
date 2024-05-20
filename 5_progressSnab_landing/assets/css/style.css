@@ -155,3 +155,56 @@ body {
   padding: 0 38px 38px 38px;
   margin-bottom: 0;
 }
+
+.moment-section {
+  margin-bottom: 120px;
+}
+
+.moment-section__title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 48px;
+}
+
+.moment-section__block {
+  display: flex;
+}
+
+.moment-section__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.moment-section__card {
+  border: 1px solid #dbdee2;
+  border-radius: 24px 12px 24px 12px;
+  background: white;
+  margin-right: 24px;
+  width: 100%;
+  min-height: 280px;
+}
+
+.moment-section__card:last-child {
+  margin-right: 0;
+}
+
+.moment-section__text {
+  color: #455163;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 36px;
+  padding-left: 38px;
+  padding-right: 15px;
+}
+
+.moment-section__img {
+  padding-right: 20px;
+}
+
+.moment-section__imgc {
+  width: 252px;
+  height: 181px;
+}
