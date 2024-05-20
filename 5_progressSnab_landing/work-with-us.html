@@ -94,6 +94,63 @@
 
         </div>
     </section>
+
+
+
+    <!-- Секция команды -->
+    <section class="team-section">
+        <div class="container">
+            <h2 class="team-section__title">В свою команду мы ищем</h2>
+            <div class="team-section__block">
+                <div class="team-section__card" onclick="toggleContent(this)">
+                    <div class="team-section__flex">
+                        <p class="team-section__text1">Помощников менеджера</p>
+                        <img src="./assets/icons/team-strelka.svg" alt="стрелка" class="team-section__icon">
+                        <button class="team-section__btn" style="display: none;">Откликнуться на вакансию</button>
+                    </div>
+                    <p class="team-section__text2">Обязанности:</p>
+                    <ul class="team-section__ul">
+                        <li class="team-section__li">1. Подготовка документов и материалов для менеджера.</li>
+                        <li class="team-section__li">2. Организация встреч и деловых мероприятий.</li>
+                        <li class="team-section__li">3. Участие в подборе персонала и оценке кандидатов.</li>
+                        <li class="team-section__li">4. Обработка клиентских запросов и поддержка клиентов.</li>
+                        <li class="team-section__li">5. Взаимодействие с деловыми партнёрами и координация сотрудничества.</li>
+                    </ul>
+                </div>
+                <div class="team-section__card" onclick="toggleContent(this)">
+                    <div class="team-section__flex">
+                        <p class="team-section__text1">Менеджеров</p>
+                        <img src="./assets/icons/team-strelka.svg" alt="стрелка" class="team-section__icon">
+                        <button class="team-section__btn" style="display: none;">Откликнуться на вакансию</button>
+                    </div>
+                    <p class="team-section__text2">Обязанности:</p>
+                    <ul class="team-section__ul">
+                        <li class="team-section__li">1. Планирование и организация коммерческой и производственной деятельности на своём участке.</li>
+                        <li class="team-section__li">2. Подбор, расстановка и мотивация персонала, оценка качества труда подчинённых.</li>
+                        <li class="team-section__li">3. Контроль выполнения заданий непосредственными исполнителями. </li>
+                        <li class="team-section__li">4. Ведение текущего документооборота. </li>
+                        <li class="team-section__li">5. Разработка и заключение договоров на своём уровне ответственности.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="team-section__card" onclick="toggleContent(this)">
+                <div class="team-section__flex">
+                    <p class="team-section__text1">Водителей грузовых автомобилей с собственным транспортом</p>
+                    <img src="./assets/icons/team-strelka.svg" alt="стрелка" class="team-section__icon">
+                    <button class="team-section__btn" style="display: none;">Откликнуться на вакансию</button>
+                </div>
+                <p class="team-section__text2">Обязанности:</p>
+                <ul class="team-section__ul">
+                    <li class="team-section__li">1. Управление грузовым автомобилем соответствующей категории (например, категория B, C или D).</li>
+                    <li class="team-section__li">2. Заправка автомобиля топливом и другими необходимыми жидкостями.</li>
+                    <li class="team-section__li">3. Проверка технического состояния автомобиля перед каждым рейсом, включая проверку уровня масла, тормозной жидкости и давления в шинах.</li>
+                    <li class="team-section__li">4. блюдение правил дорожного движения и норм безопасности при перевозке грузов.</li>
+                    <li class="team-section__li">5. Ежедневный осмотр автомобиля на наличие неисправностей и отметка о них в путевом листе.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
   
             
 
@@ -102,7 +159,22 @@
 
 
 
-
+    <script>
+    function toggleContent(card) {
+    const icon = card.querySelector('.team-section__icon');
+    const button = card.querySelector('.team-section__btn');
+    
+    if (icon.style.display === 'none') {
+        icon.style.display = 'block';
+        button.style.display = 'none';
+        card.style.backgroundColor = ''; // возвращает исходный цвет фона
+    } else {
+        icon.style.display = 'none';
+        button.style.display = 'block';
+        card.style.backgroundColor = 'rgb(247, 247, 247)'; // изменяет цвет фона
+    }
+}
+    </script>
 
 
 

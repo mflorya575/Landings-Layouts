@@ -208,3 +208,99 @@ body {
   width: 252px;
   height: 181px;
 }
+
+.team-section {
+  margin-bottom: 128px;
+}
+
+.team-section__title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 48px;
+}
+
+.team-section__block {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.team-section__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-section__card {
+  border: 1px solid #dbdee2;
+  border-radius: 24px 12px 24px 12px;
+  background: white;
+  margin-right: 24px;
+  width: 100%;
+  min-height: 200px;
+  transition: background-color 0.3s;
+}
+
+.team-section__card:last-child {
+  margin-right: 0;
+}
+
+.team-section__card:hover {
+  cursor: pointer;
+}
+
+.team-section__text1 {
+  color: #455163;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  padding-left: 30px;
+}
+
+.team-section__text2 {
+  color: #455163;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  padding-left: 30px;
+}
+
+.team-section__ul {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.team-section__li {
+  list-style-type: none;
+  color: #455163;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.team-section__icon {
+  padding: 16px 16px 0 0;
+  flex-shrink: 0;
+}
+
+.team-section__btn {
+  flex-shrink: 0;
+  border-radius: 12px 6px 12px 6px;
+  border: none;
+  background: #36a9e1;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  width: 281px;
+  height: 48px;
+  margin: 16px 16px 0 0;
+  transition: all 0.2s ease-out;
+}
+
+.team-section__btn:hover {
+  background: white;
+  border: 1px solid #36a9e1;
+  color: #36a9e1;
+  cursor: pointer;
+}
