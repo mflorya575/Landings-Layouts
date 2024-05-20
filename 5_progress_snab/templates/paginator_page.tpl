@@ -1,1 +1,0 @@
-<li class="page-pagination__item"><a href="{url}">{page}</a></li>
