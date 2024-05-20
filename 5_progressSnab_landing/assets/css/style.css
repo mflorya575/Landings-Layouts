@@ -348,3 +348,15 @@ body {
 #blue {
   color: #36A9E1;
 }
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+  .banner2-section__text1 {
+    font-size: 22px;
+  }
+  .banner2-section__text2 {
+    font-size: 28px;
+  }
+}
