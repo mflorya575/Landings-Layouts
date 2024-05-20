@@ -1,0 +1,26 @@
+.block-info {
+    margin-bottom: 100px;
+}
+
+.block-info__item {
+    padding: 25px;
+    background-color: #013DB1;
+    text-align: center;
+}
+    
+.block-info__item-title {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+    
+.block-info__item-text {
+    font-size: 15px;
+    color: #E8E8E8;
+}
+    
+.block-info__list-item {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+    

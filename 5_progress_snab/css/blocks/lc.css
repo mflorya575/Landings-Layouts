@@ -1,0 +1,83 @@
+.lc__wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.lc__wrap--order {
+    padding-bottom: 40px;
+}
+    
+.lc__exit {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.lc__exit:hover {
+    color: #000;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+    
+.lc__add {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.lc__add span {
+    font-size: 24px;
+}
+
+.lc__add:hover {
+    color: #000;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.lc__add:hover span {
+    color: #000;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+    
+.lc__order {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 110%;
+    color: #333333;
+}
+
+.lc-manager {
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.lc-manager-client {
+    padding-top: 0px;
+}
+    

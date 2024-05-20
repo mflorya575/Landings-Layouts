@@ -1,0 +1,150 @@
+.requisites {
+	background-color: #fff;
+}
+
+.requisites__content {
+	padding-bottom: 30px;
+	margin-right: 80px;
+}
+
+.requisites__wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.requisites__title {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 120%;
+	color: #333333;
+	padding-bottom: 30px;
+}
+
+.requisites__title-main {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 110%;
+	color: #333333;
+	padding-bottom: 34px;
+}
+
+.requisites__form-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.requisites__form-name {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 110%;
+	color: #333333;
+	width: 367px;
+	margin-right: 10px;
+}
+
+.requisites__form-name--width {
+	width: 130px;
+	margin-right: 10px;
+}
+
+.requisites__form-input {
+	margin-bottom: 0px;
+	width: 521px;
+}
+
+.requisites__form-input--width1 {
+	width: 350px;
+}
+
+.requisites__form-input--width2 {
+	width: 384px; 
+}
+
+.requisites__form-input--width3 {
+	width: 543px;
+}
+
+.requisites__form-input--width4 {
+	width: 205px;
+}
+
+.requisites__form-input--width5 {
+	width: 257px;
+}
+
+.requisites__upload-file {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.requisites__upload-file input {
+	visibility: hidden;
+	position: absolute;
+}
+
+.requisites__upload-file label {
+	background: #1D2E89;
+	border: 1px solid #1D2E89;
+	border-radius: 12px 6px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	padding: 10px 36px 10px 10px;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.requisites__upload-file label:hover {
+	background: #fff;
+	color: #1D2E89;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.requisites__upload-file label:hover:hover svg {
+	fill: #1D2E89;
+}
+
+.requisites__upload-file svg {
+	position: absolute;
+	top: 50%;
+	right: 9%;
+	-webkit-transform: translateY(-56%);
+	-ms-transform: translateY(-56%);
+	transform: translateY(-56%);
+	width: 18px;
+	height: 19px;
+	fill: #fff;
+}
+
+.requisites__upload-text {
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #1D2E89;
+	margin-left: 10px;
+}
+
+.requisites__upload-text--price {
+	margin-left: 20px;
+}

@@ -1,0 +1,559 @@
+.button-buy {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #36A9E1;
+    box-shadow: 0px 6px 10px -1px rgba(6, 25, 56, 0.07);
+    border-radius: 12px 6px;
+    height: 48px;
+    width: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-buy--product {
+    width: 266px;
+}
+
+@media (max-width: 540px) {
+    .button-buy--product  {
+    	width: 159px;
+	}
+}
+
+.button-buy span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #36A9E1;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+    
+.button-buy:hover {
+    background:  #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-buy:hover span {
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.product-card__button-order {
+    border: 1px solid #36A9E1;
+    background: #36A9E1;
+    padding: 24px 90px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 0.2s ease-out;
+}
+
+.product-card__button-order:hover {
+    background:  #36A9E1;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.product-card__button-order:active {
+    background-color: #36A9E1;
+    border-color: #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.products__card-button-more {
+    position: absolute;
+    content: '';
+    bottom: -20%;
+    left: 0;
+    z-index: 99;
+    display: none;
+}
+
+.products__card:hover .products__card-button-more {
+    display: flex;
+}
+
+.button-card-more a {
+    padding: 25px 85px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #36A9E1;
+    background-color: #36A9E1;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-card-more:hover a {
+    background:  #36A9E1;
+    border-color:#36A9E1;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-card-more:active a {
+    background-color:#36A9E1;
+    border-color:#36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-cart {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #36A9E1;
+    box-shadow: 0px 6px 10px -1px rgba(6, 25, 56, 0.07);
+    border-radius: 12px 6px;
+    height: 48px;
+    width: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-cart--product {
+    width: 266px;
+}
+
+@media (max-width: 540px) {
+    .button-cart--product  {
+    	width: 159px;
+	}
+}
+
+.button-cart span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #36A9E1;
+    position: relative;
+    display: inline-block;
+    border-left: none;
+    padding-left: 7px;
+}
+    
+.button-default {
+    background-color:  #36A9E1;
+    color: #F8F8F8;
+    border: 1px solid  #36A9E1;
+    border-radius: 12px 6px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+@media (max-width: 540px) {
+    .button-default {
+    	width: 100%;
+	}
+}
+
+.button-default--width {
+    width: 100%;
+    margin: auto;
+}
+    
+
+.button-default:hover {
+    background-color: #fff;
+    color:  #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-default-second {
+    font-size: 16px;
+    text-transform: none;
+}
+
+
+
+.accept-button {
+    background-color:  #36A9E1;
+    color: #F8F8F8;
+    position: absolute;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    border: 1px solid #36A9E1;
+    padding: 10px 69px 10px 69px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    z-index: 999999;
+}
+
+.accept-button:hover {
+    background-color: #fff;
+    color:  #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+    
+.button-blue {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color:  #36A9E1;
+    border-radius: 12px 6px;
+    border: 1px solid #36A9E1;
+    padding: 16px 32px;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-blue:hover {
+    background:  #36A9E1;
+    color: #F8F8F8;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+    
+.button-white {
+    font-size: 13px;
+    line-height: 120%;
+    color: #36A9E1;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    background: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out; 
+}
+
+.button-white:hover {
+    background: #36A9E1;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-white:active {
+      background:  #36A9E1;
+      color: #fff;
+      -webkit-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+}
+       
+.button-more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    text-decoration: underline;
+    color: #333333;
+    padding-right: 7px;
+    transition: all 0.2s ease-out;
+}
+
+.button-more:hover {
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+/* .button-more:active {
+    background-color: #0147cf;
+    border-color: #0147cf;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+} */
+    
+@media (max-width: 540px) {
+    .button-mobile {
+    	width: 100%;
+	}
+}
+    
+@media (max-width: 540px) {
+    .button-mobile span {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+}
+    
+@media (max-width: 540px) {
+    .button-mobile a {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+}
+    
+@media (max-width: 540px) {
+    .card__buttons-mobile {
+    	width: 100%;
+	}
+}
+    
+.buttons-details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    padding-bottom: 24px;
+    padding-top: 4px;
+}
+
+.button-bill {
+    background: #36A9E1;
+    border-radius: 12px 6px;
+    border:1px solid #36A9E1;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 16px 64px 16px 32px;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button-bill:hover {
+    background: #fff;
+    color: #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-bill svg {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    fill: #fff;
+    width: 18px;
+    height: 18px;
+    right: 30px;
+    transition: all 0.2s ease-out;
+}
+
+.button-bill:hover svg {
+    fill: #36A9E1;
+    transition: all 0.2s ease-out;
+}
+    
+.button-sent {
+    position: relative;
+    display: inline-block;
+}
+
+.button-sent input {
+    visibility: hidden;
+    position: absolute;
+}
+
+.button-sent label {
+    background: #36A9E1;
+    border-radius: 12px 6px;
+    border:1px solid #36A9E1;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 16px 54px 16px 32px;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button-sent label svg {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    fill: #fff;
+    width: 18px;
+    height: 18px;
+    right: 30px;
+    transition: all 0.2s ease-out;
+}
+
+.button-sent:hover label {
+    background: #fff;
+    color: #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-sent:hover label svg {
+    fill: #36A9E1;
+    transition: all 0.2s ease-out;
+}
+    
+.button-manager {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #36A9E1;
+    cursor: pointer;
+    border-bottom: 1px dashed #36A9E1;
+    margin-left: 20px;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-manager:hover {
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    color: #9A9BBE;
+    border-bottom: 1px dashed #9A9BBE;
+}
+    
+.buttons-settings {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+    
+.button-settings-cancel {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    padding-left: 36px;
+    cursor: pointer;
+}
+
+.button-settings-cancel:hover {
+    color: #333;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button-blue-edit {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #36A9E1;
+    padding-right: 7px;
+    cursor: pointer;
+}
+
+.button-register {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color:  #36A9E1!important;
+    margin-right: 20px;
+}
+
+.button-register:hover {
+    color: #333!important;
+}
+
+.card__buttons {
+    margin-right: 15px;
+}
+
+.cancel-btn {
+    background-color: #fff;
+    border: 1px solid  #36A9E1;
+    border-radius: 12px 6px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color:  #36A9E1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.cancel-btn:hover {
+    background-color:  #36A9E1;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}

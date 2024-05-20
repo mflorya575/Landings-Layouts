@@ -1,0 +1,412 @@
+.template__title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 110%;
+	color: #333333;
+	padding-bottom: 40px; 
+}
+
+.template-main {
+	margin-left: 30px;
+}
+
+.template {
+	background-color: #fff;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	width: 1071px;
+}
+
+.template__subtitle {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #333; 
+}
+
+.template__add {
+	margin-bottom: 20px; 
+}
+
+.template__add-text {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1D2E89;
+	cursor: pointer;
+	position: relative;
+	border-bottom: 1px solid #1D2E89;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.template__add-text svg {
+	position: absolute;
+	top: 50%;
+	right: -25px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 18px;
+	height: 19px;
+	fill:#1D2E89;
+}
+
+.template__add-text:hover {
+	border-bottom: none;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out; 
+}
+
+.template__notification-warning {
+	padding: 10px;
+	border: 1px solid #CE0606;
+	border-radius: 6px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 870px;
+}
+
+.template__notification-exclamation {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 160%;
+	color: #951E42;
+	padding-right: 7px;
+}
+
+.template__notification span {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #333; 
+}
+
+.template__notification-show-warning {
+	padding: 13px 10px;
+	border: 1px solid #951E42;
+	border-radius: 6px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center; 
+}
+
+.template__notification-show span {
+	font-size: 15px;
+	font-weight: 300;
+	color: #951E42;
+	padding-left: 7px; 
+}
+
+.template__form {
+	padding-top: 20px; 
+}
+
+.template__form-span {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 160%;
+	color: #001233;
+	padding-left: 5px; 
+}
+
+.template__form-wrapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 20px; 
+}
+
+
+.template__form-name {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 110%;
+	color: #333;
+	width: 180px;
+	margin-right: 10px; 
+}
+
+.template__form-name--align {
+	-webkit-align-self: flex-start;
+	-ms-flex-item-align: start;
+	align-self: flex-start; 
+}
+
+.template__form-label {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-right: 24px; 
+}
+
+.template__form-input input {
+	margin-bottom: 0px;
+	width: 350px; 
+}
+
+.template__form-input input::-webkit-input-placeholder {
+	color: #001233; 
+}
+
+.template__form-input input::-moz-placeholder {
+	color: #001233; 
+}
+
+.template__form-input input:-ms-input-placeholder {
+	color: #001233; 
+}
+
+.template__form-input input::-ms-input-placeholder {
+	color: #001233; 
+}
+
+.template__form-input input::placeholder {
+	color: #001233; 
+}
+
+.template__calculator {
+	color: #951E42; 
+}
+
+.template__calculator-title {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 110%;
+	color: #333;
+	margin-bottom: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center; 
+}
+
+.template__calculator-title input {
+	margin-left: 5px;
+	width: 193px; 
+}
+
+.template__calculator-submit--pad {
+	padding-bottom: 24px; 
+}
+
+.template__calculator--pad {
+	margin-left: 15px;
+	margin-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #F6F8FB; 
+}
+
+.template__calculator-add {
+	padding: 10px;
+	background: #F6F6F6;
+	border-radius: 3px;
+	margin-bottom: 20px; 
+}
+
+.template__calculator-text {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 160%;
+	color: #333;
+	margin-bottom: 14px; 
+}
+
+.template__calculator-toggle {
+	color: #1D2E89;
+	cursor: pointer;
+	margin-right: 5px; 
+}
+
+.template__calculator-toggle:hover {
+	color: #333333;
+}
+
+.template__calculator-toggle--inactive {
+	cursor: default; 
+}
+
+.template__calculator-toggle--inactive:hover {
+	color: #333;
+}
+
+.template__calculator-add-word {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 140%;
+	color: #1D2E89;
+	cursor: pointer;
+	position: relative;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out; 
+}
+
+.template__calculator-add-word:hover {
+	color: #333;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out; 
+}
+
+.template__calculator-subtext {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
+	color: #B5B9BF; 
+}
+
+.template__table {
+	margin-bottom: 20px; 
+}
+
+.template__headline {
+	height: 51px;
+	background: #F7F7F7;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-left: 16px; 
+}
+
+.template__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #333; 
+}
+
+.template__text--bold {
+	font-weight: 500; 
+}
+
+.template__text--size {
+	font-size: 16px;
+	line-height: 110%; 
+}
+
+.template__text--name {
+	width: 480px; 
+}
+
+.template__text--tag {
+	width: 365px; 
+}
+
+.template__text--date {
+	width: 131px; 
+}
+
+.template__item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 48px;
+	padding-left: 16px;
+	cursor: pointer;
+	border: 1px solid rgba(255, 255, 255, 0);
+	border-bottom: 1px solid #F2F2F2;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out; 
+}
+
+.template__item:hover {
+	border: 1px solid #1D2E89;
+	-webkit-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out; 
+}
+
+.template__item:hover .template__icons {
+	visibility: visible; 
+}
+
+.template__icons {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	visibility: hidden; 
+}
+
+.template__edit {
+	margin-right: 20px; 
+}
+
+.template__edit svg {
+	fill: #1D2E89;
+	width: 24px;
+	height: 24px; 
+}
+
+.template__edit:hover svg {
+	fill: #333; 
+}
+
+.template__delete svg {
+	width: 14px;
+	height: 14px;
+	fill:  #B5B9BF;
+}
+
+.template__delete:hover svg {
+	fill:  #CE0606;
+}
+
+.ui-menu {
+	background-color: #fff;
+	padding: 5px 30px 15px 30px;
+	width: 193px;
+	-webkit-box-shadow: 0px 4px 40px rgba(30, 73, 149, 0.1);
+	box-shadow: 0px 4px 40px rgba(30, 73, 149, 0.1);
+	z-index: 99; 
+}

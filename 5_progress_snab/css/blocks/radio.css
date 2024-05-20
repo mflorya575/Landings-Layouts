@@ -1,0 +1,28 @@
+.radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px !important;
+    height: 16px !important;
+    cursor: pointer;
+    outline: none;
+    background-image: url("/assets/icon/radio.svg");
+    background-repeat: no-repeat;
+}
+
+.radio:hover:not(:checked) {
+    background-image: url("/assets/icon/radio-hover.svg");
+    background-repeat: no-repeat;
+}
+
+.radio:checked {
+    border: none;
+    background-image: url("/assets/icon/radio-active.svg");
+    background-repeat: no-repeat;
+}
+
+.radio-validate--error {
+    background-image: url("/assets/icon/radio-validate.svg");
+    background-repeat: no-repeat;
+}
+    

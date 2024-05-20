@@ -1,0 +1,1 @@
+<li class="page-pagination__item page-pagination__item--current"><span>{page}</span></li>

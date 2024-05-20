@@ -1,0 +1,326 @@
+.input-error-text {
+    color: #EB5757 !important;
+}
+    
+.input {
+    height: 40px;
+    padding: 8px 10px;
+    color: #333;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    position: relative;
+    background: #F7F7F7;
+    border: 1px solid #F2F2F2;
+    border-radius: 12px 6px;
+}
+
+.input:focus {
+    border: 1px solid #36A9E1;
+}
+
+.input::placeholder {
+    color:#B5B9BF;
+}
+
+@media (max-width: 540px) {
+    .input {
+    	font-size: 14px;
+    	margin-bottom: 20px;
+	}
+}
+
+.input-profile {
+    margin-bottom: 10px;
+}
+    
+.input-error {
+    border: 1px solid #CE0606 !important;
+}
+
+.input-error-phone::placeholder {
+    color:  #CE0606 !important;
+}
+
+/* .input-error-icon {
+    position: absolute;
+	content: '';
+	top: 45px;
+	right: 16px;
+	width: 20px;
+	height: 20px;
+	background-image: url("/assets/icon/form-error.svg");
+	background-repeat: no-repeat;
+	z-index: 99;
+    display: none;
+}
+
+.input-error + .input-error-icon {
+    display: block;
+} */
+
+/* .input-error-icon-cart {
+    top: 12px;
+} */
+    
+.input-error::placeholder {
+    color:  #CE0606 !important;
+}
+    
+.ui-menu {
+    background-color: #fff;
+    padding: 5px 30px 15px 30px;
+    width: 300px;
+    -webkit-box-shadow: 0px 4px 40px rgba(30, 73, 149, 0.1);
+        box-shadow: 0px 4px 40px rgba(30, 73, 149, 0.1);
+    z-index: 99;
+}
+
+@media (max-width: 540px) {
+    .ui-menu {
+		font-size: 18px;
+		line-height: 22px;
+		width: 288px;
+	}
+}
+    
+.ui-menu-item {
+    font-size: 13px;
+    line-height: 120%;
+    cursor: pointer;
+    border-bottom: 1px solid #DEDEE6;
+}
+ 
+.ui-menu-item:hover {
+    background-color: #F6F6F6!important;
+    /* border: 1px solid #013DB1!important; */
+    color:  #1F2937!important;
+}
+
+.ui-menu-item:last-child {
+    border-bottom: none;
+}
+    
+.input-blue {
+    border: none;
+    outline: none;
+    background: none;
+    color: #1D2E89;
+}
+
+
+.input-blue::placeholder {
+    color: #1D2E89;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+}
+
+.form_error {
+	min-height: 20px;
+	font-size:12px;
+	color:  #CE0606;
+}
+.input-error-text {
+	color: #CE0606!important;
+}
+
+#login_block input {
+	margin-bottom: 0px !important;
+}
+
+#register_block input {
+	margin-bottom: 0px !important;
+}
+
+.order_error {
+	font-size: 12px;
+	color:  #CE0606;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#orderform input {
+	margin-bottom: 0px;
+}
+
+.order__form-name {
+	width: 190px;
+	margin-right: 20px;
+}
+                    
+.delfile {
+    font-size: 22px;
+    line-height: 1;
+    color:  #CE0606;
+    cursor: pointer;
+}
+    
+.form-input {
+    position: relative;
+    flex-grow: 1;
+}
+    
+.order__form-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 540px) {
+    .order__form-wrapper {
+        display: block;
+        margin-bottom: 15px;
+	}
+}
+    
+.form-input input[type="file"] {
+    display: none;
+}                
+
+.password-control {
+	position: absolute;
+	content: '';
+	top: 45px;
+	right: 16px;
+	width: 17px;
+	height: 17px;
+	background-image: url("/assets/icon/password-invisible.svg");
+	background-repeat: no-repeat;
+	z-index: 99;
+	cursor: pointer;
+}
+
+.password-control.view {
+    top: 47px;
+    background-image: url("/assets/icon/password-visible.svg");
+    background-repeat: no-repeat;
+}
+
+.password-control--manager {
+	top: 11px;
+}
+
+.password-control--manager.view {
+	top: 13px;
+}
+
+.banner_button {
+    position: absolute;
+    background: url("/assets/images/button_main.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 2px;
+
+    width: 291px;
+    height: 58px;
+
+    background-size: 291px 58px;
+    border-width: 0px;
+
+    bottom: 15px;
+    margin-left: 15px;
+}
+
+.banner_button.nov {
+    bottom: 75px !important;
+}
+
+.banner_button:active, .banner_button:hover {
+    background: url("/assets/images/button_push.png") no-repeat scroll 0 0 transparent;
+    background-size: 291px 58px;
+    width: 291px;
+    height: 58px;
+}
+
+
+@media (max-width: 512px) {
+    .banner_button {
+        width: 146px;
+        height: 29px;
+
+        background-size: 146px 29px;
+        border-width: 0px;
+
+        top: 188px;
+    }
+
+    .banner_button:active, .banner_button:hover {
+        background: url("/assets/images/button_push.png") no-repeat scroll 0 0 transparent;
+        width: 146px;
+        height: 29px;
+
+        background-size: 146px 29px;
+    }
+}
+
+
+.banner_button_iek {
+    position: absolute;
+    background: url("/assets/images/button_main_iek.png") no-repeat scroll 0 0 transparent;
+    background-size: cover;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 2px;
+
+    width: 308px;
+    height: 90px;
+
+    border-width: 0px;
+
+    bottom: 15px;
+    margin-left: 15px;
+}
+
+.banner_button_iek:active, .banner_button_iek:hover {
+    background: url("/assets/images/button_push_iek.png") no-repeat scroll 0 0 transparent;
+}
+
+
+@media (max-width: 1024px) {
+    .banner_button_iek {
+        max-width: 154px;
+        max-height: 45px;
+
+        background-size: 154px 45px;
+    }
+
+    .banner_button_iek:active, .banner_button_iek:hover {
+        background: url("/assets/images/button_push_iek.png") no-repeat scroll 0 0 transparent;
+
+        max-width: 154px;
+        max-height: 45px;
+
+        background-size: 154px 45px;
+    }
+}
+
+@media (max-width: 512px) {
+    .banner_button_iek {
+        width: 160px;
+        height: 46px;
+
+        background-size: 160px 46px;
+        border-width: 0px;
+
+        top: 198px;
+        margin-left: 85px;
+    }
+
+    .banner_button_iek:active, .banner_button_iek:hover {
+        background: url("/assets/images/button_push_iek.png") no-repeat scroll 0 0 transparent;
+
+        width: 160px;
+        height: 46px;
+
+        background-size: 160px 46px;
+        border-width: 0px;
+    }
+}
