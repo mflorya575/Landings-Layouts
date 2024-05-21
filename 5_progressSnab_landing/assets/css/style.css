@@ -184,6 +184,7 @@ body {
   margin-right: 24px;
   width: 100%;
   min-height: 280px;
+  display: grid;
 }
 
 .moment-section__card:last-child {
@@ -202,11 +203,6 @@ body {
 
 .moment-section__img {
   padding-right: 20px;
-}
-
-.moment-section__imgc {
-  width: 252px;
-  height: 181px;
 }
 
 .team-section {
@@ -345,7 +341,7 @@ body {
   margin-top: 68px;
 }
 
-#blue {
+#blueee {
   color: #36A9E1;
 }
 
@@ -358,5 +354,74 @@ body {
   }
   .banner2-section__text2 {
     font-size: 28px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 691px;
+  }
+  .aboutsome-section__block {
+    display: block;
+  }
+  .aboutsome-section__card {
+    margin-bottom: 20px;
+  }
+  .moment-section__block {
+    display: block;
+  }
+  .moment-section__card {
+    margin-bottom: 20px;
+  }
+  .moment-section__imgf {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  .moment-section__imgc {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  .moment-section__img {
+    padding-right: 0;
+  }
+  .banner2-section {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .banner2-section__block {
+    display: block;
+  }
+  .banner2-section__text1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 48px;
+  }
+  .banner2-section__vertical {
+    border: 2px solid #455163;
+    width: 100%;
+    height: 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .banner2-section__text2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    padding-bottom: 20px;
+  }
+  .team-section__block {
+    display: block;
+  }
+  .team-section__card {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .team-section__btn {
+    font-size: 14px;
+    width: 220px;
+    height: 40px;
   }
 }
