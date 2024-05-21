@@ -52,6 +52,9 @@ body
     max-width: 1440px
     margin: 0 auto
 
+.banner-mobile
+    display: none
+
 .banner
     background: rgb(29, 46, 137)
     margin-top: 24px
@@ -263,6 +266,29 @@ body
 #blueee
     color: #36A9E1
 
+@media (max-width: 1789px)
+    .banner__title
+        font-size: 54px
+        line-height: 70px
+        margin-top: 75px
+
+@media (max-width: 1600px)
+    .banner__title
+        font-size: 42px
+        line-height: 60px
+        margin-top: 85px
+        padding-left: 40px
+        max-width: 700px
+    .banner__img1
+        margin-top: 135px
+        width: 300px
+    .banner__img2
+        margin-top: 135px
+        width: 140px
+    .banner__btn 
+        width: 170px
+        padding: 16px
+
 @media (max-width: 1400px)
     .container
         max-width: 1140px
@@ -322,6 +348,48 @@ body
         font-size: 14px
         width: 220px
         height: 40px
+    .banner
+        display: none
+    .banner-mobile
+        display: block
+        background: rgb(29, 46, 137)
+        margin-top: 24px
+        width: 100%
+        min-height: 440px
+        margin-bottom: 60px
+    .banner-mobile__title
+        color: rgb(255, 255, 255)
+        font-size: 25px
+        font-weight: 500
+        line-height: 30px
+        text-align: center
+        padding-top: 56px
+        padding-bottom: 65px
+    .banner-mobile__btn
+        display: block
+        margin: 0 auto
+        border-radius: 12px 6px 12px 6px
+        border: none
+        padding: 16px 32px
+        background: rgb(255, 255, 255)
+        color: rgb(29, 46, 137)
+        font-size: 16px
+        font-weight: 500
+        line-height: 100%
+        transition: all 0.2s ease-out
+        &:hover
+            background: rgb(29, 46, 137)
+            color: rgb(255, 255, 255)
+            border: 1px solid rgb(255, 255, 255)
+            cursor: pointer
+    .banner-mobile__flex
+        margin-top: 56px
+        display: flex
+        justify-content: space-between
+    .banner-mobile__img1
+        width: 300px
+    .banner-mobile__img2
+        width: 140px
 
 @media (max-width: 600px)
     .container
@@ -387,3 +455,9 @@ body
         height: 40px
     .team-section__br
         display: block
+    .banner-mobile__flex
+        margin-top: 69px
+    .banner-mobile__img1
+        width: 190px
+    .banner-mobile__img2
+        width: 105px
