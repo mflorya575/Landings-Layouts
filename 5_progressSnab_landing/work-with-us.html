@@ -126,11 +126,11 @@
         <div class="container">
             <h2 class="team-section__title">В свою команду мы ищем</h2>
             <div class="team-section__block">
-                <div class="team-section__card" onclick="toggleContent(this)">
+                <div class="team-section__card">
                     <div class="team-section__flex">
                         <p class="team-section__text1">Помощников менеджера</p>
                         <img src="./assets/icons/team-strelka.svg" alt="стрелка" class="team-section__icon">
-                        <button class="team-section__btn" style="display: none;">Откликнуться<br class="team-section__br"> на вакансию</button>
+                        <button class="team-section__btn">Откликнуться<br class="team-section__br"> на вакансию</button>
                     </div>
                     <p class="team-section__text2">Обязанности:</p>
                     <ul class="team-section__ul">
@@ -141,11 +141,11 @@
                         <li class="team-section__li">5. Взаимодействие с деловыми партнёрами и координация сотрудничества.</li>
                     </ul>
                 </div>
-                <div class="team-section__card" onclick="toggleContent(this)">
+                <div class="team-section__card">
                     <div class="team-section__flex">
                         <p class="team-section__text1">Менеджеров</p>
                         <img src="./assets/icons/team-strelka.svg" alt="стрелка" class="team-section__icon">
-                        <button class="team-section__btn" style="display: none;">Откликнуться<br class="team-section__br"> на вакансию</button>
+                        <button class="team-section__btn">Откликнуться<br class="team-section__br"> на вакансию</button>
                     </div>
                     <p class="team-section__text2">Обязанности:</p>
                     <ul class="team-section__ul">
@@ -157,11 +157,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="team-section__card" onclick="toggleContent(this)">
+            <div class="team-section__card">
                 <div class="team-section__flex">
                     <p class="team-section__text1">Водителей грузовых автомобилей с собственным транспортом</p>
                     <img src="./assets/icons/team-strelka.svg" alt="стрелка" class="team-section__icon">
-                    <button class="team-section__btn" style="display: none;">Откликнуться<br class="team-section__br"> на вакансию</button>
+                    <button class="team-section__btn">Откликнуться<br class="team-section__br"> на вакансию</button>
                 </div>
                 <p class="team-section__text2">Обязанности:</p>
                 <ul class="team-section__ul">
@@ -173,6 +173,54 @@
                 </ul>
             </div>
 
+            <!-- Диалоговое окно -->
+            <dialog class="team-section__modal">
+                <div class="team-section__block-krest">
+                    <div></div>
+                    <img src="./assets/icons/dialog-krest.svg" alt="крестик" class="team-section__icon-krest">
+                </div>
+                <!-- Заголовок -->
+                <h5 class="team-section__title-dialog">Откликнуться на вакансию</h5>
+                <!-- Форма -->
+                <form action="#" method="POST">
+                    <div class="team-section__form-group1">
+                        <p class="team-section__text-dialog">ФИО</p>
+                        <img src="./assets/icons/galka.svg" alt="галка" class="team-section__icon-red">
+                        <input class="team-section__input1" type="text" required="" name="username" placeholder="Иванов Иван Иванович" />
+                    </div>
+                    <div class="team-section__form-group2">
+                        <p class="team-section__text-dialog">Телефон</p>
+                        <img src="./assets/icons/galka.svg" alt="галка" class="team-section__icon-red margin1">
+                        <input class="team-section__input2" type="tel" required="" name="second-name" placeholder="+7(999) 999-99-99" />
+                    </div>
+                    <div class="team-section__form-group3">
+                        <p class="team-section__text-dialog">Желмаемая вакансия</p>
+                        <img src="./assets/icons/galka.svg" alt="галка" class="team-section__icon-red margin2">
+                        <textarea name="" id="" placeholder="Введите название должности" rows="10" class="team-section__textarea"></textarea>
+                    </div>
+                    <div class="team-section__form-group">
+                        <button type="submit" class="team-section__btn" name="login">Отправить</button>
+                    </div>
+
+                    <hr class="team-section__hr">
+                    <div class="team-section__block-skrepka">
+                        <img src="./assets/icons/skrepka.svg" alt="скрепка" class="team-section__icon-skrepka">
+                        <a href="#" class="team-section__link">Прикрепить резюме</a>
+                    </div>
+                    <hr class="team-section__hr">
+                    <div class="team-section__block-red">
+                        <img src="./assets/icons/galka.svg" alt="галка" class="team-section__red-l">
+                        <p class="team-section__text-r">Поля обязательные для заполнения</p>
+                    </div>
+                    <div class="team-section__block-check">
+                        <input type="checkbox" class="team-section__checkbox">
+                        <p class="team-section__text-check">Согласен на обработку персональных данных</p>
+                    </div>
+                    <button class="team-section__btn-dialog">Отправить</button>
+
+                </form>
+            </dialog>
+
         </div>
     </section>
   
@@ -182,20 +230,17 @@
 
 
     <script>
-    function toggleContent(card) {
-    const icon = card.querySelector('.team-section__icon');
-    const button = card.querySelector('.team-section__btn');
-    
-    if (icon.style.display === 'none') {
-        icon.style.display = 'block';
-        button.style.display = 'none';
-        card.style.backgroundColor = ''; // возвращает исходный цвет фона
-    } else {
-        icon.style.display = 'none';
-        button.style.display = 'block';
-        card.style.backgroundColor = 'rgb(247, 247, 247)'; // изменяет цвет фона
-    }
-}
+const openModal = document.querySelector('.team-section__btn')
+const closeModal = document.querySelector('.team-section__icon-krest')
+const modal = document.querySelector('.team-section__modal')
+
+openModal.addEventListener('click', () => {
+    modal.showModal()
+})
+
+closeModal.addEventListener('click', () => {
+    modal.close()
+})
     </script>
 
 

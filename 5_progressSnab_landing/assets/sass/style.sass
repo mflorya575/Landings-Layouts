@@ -187,6 +187,11 @@ body
             margin-right: 0
         &:hover
             cursor: pointer
+            background: rgb(247, 247, 247)
+            .team-section__icon
+                display: none
+            .team-section__btn
+                display: inline-block
     &__text1
         color: rgb(69, 81, 99)
         font-size: 24px
@@ -224,6 +229,7 @@ body
         height: 48px
         margin: 16px 16px 0 0
         transition: all 0.2s ease-out
+        display: none
         &:hover
             background: rgb(255, 255, 255)
             border: 1px solid rgb(54, 169, 225)
@@ -231,6 +237,147 @@ body
             cursor: pointer
     &__br
         display: none
+    &__modal
+        width: 513px
+        min-height: 607px
+        border: none
+        padding: 40px
+        border-radius: 8px
+        background: rgb(255, 255, 255)
+    &__block-krest
+        display: flex
+        justify-content: space-between
+    &__icon-krest
+        &:hover
+            cursor: pointer
+    &__title-dialog
+        text-align: center
+        margin-bottom: 30px
+        color: rgb(31, 41, 55)
+        font-size: 24px
+        font-weight: 700
+        line-height: 29px
+    &__form-group1
+        position: relative
+        display: flex
+        justify-content: space-between
+        margin-bottom: 12px
+    &__form-group2
+        position: relative
+        display: flex
+        justify-content: space-between
+        margin-bottom: 12px
+    &__form-group3
+        position: relative
+        display: flex
+        justify-content: space-between
+        margin-bottom: 24px
+        gap: 32px
+    &__input1
+        width: 240px
+        height: 40px
+        background: rgb(247, 247, 247)
+        border: 1px solid rgb(240, 244, 250)
+        border-radius: 12px 6px 12px 6px
+        padding: 12px 0 12px 20px
+        &::placeholder
+            color: rgb(181, 185, 191)
+            font-size: 14px
+            font-weight: 400
+            line-height: 24px
+    &__input2
+        width: 240px
+        height: 40px
+        background: rgb(247, 247, 247)
+        border: 1px solid rgb(240, 244, 250)
+        border-radius: 12px 6px 12px 6px
+        padding: 12px 0 12px 20px
+        &::placeholder
+            color: rgb(181, 185, 191)
+            font-size: 14px
+            font-weight: 400
+            line-height: 24px
+    &__textarea
+        width: 260px
+        height: 88px
+        background: rgb(247, 247, 247)
+        border: 1px solid rgb(240, 244, 250)
+        border-radius: 12px 6px 12px 6px
+        padding: 12px 0 12px 20px
+        resize: none
+        &::placeholder
+            color: rgb(181, 185, 191)
+            font-size: 14px
+            font-weight: 400
+            line-height: 24px
+    &__text-dialog
+        color: rgb(69, 81, 99)
+        font-size: 16px
+        font-weight: 500
+        line-height: 120%
+        /* position: relative */
+    &__icon-red
+        position: absolute
+        top: 15px
+        left: 38px
+    &__hr
+        border: 1px solid rgb(242, 242, 242)
+        margin-bottom: 24px
+    &__block-skrepka
+        display: flex
+        align-items: center
+        gap: 8px
+        margin-bottom: 27px
+    &__link
+        text-decoration: none
+        color: rgb(29, 46, 137)
+        font-size: 14px
+        font-weight: 300
+        line-height: 120%
+    &__block-red
+        display: flex
+        align-items: center
+        gap: 12px
+        margin-top: 0
+    &__text-r
+        color: rgb(31, 41, 55)
+        font-size: 14px
+        font-weight: 400
+        line-height: 140%
+    &__block-check
+        display: flex
+        align-items: center
+        gap: 12px
+        margin-bottom: 20px
+    &__text-check
+        color: rgb(31, 41, 55)
+        font-size: 14px
+        font-weight: 400
+        line-height: 140%
+    &__btn-dialog
+        border-radius: 12px 6px 12px 6px
+        background: rgb(54, 169, 225)
+        border: none
+        padding: 16px 32px
+        color: rgb(255, 255, 255)
+        font-size: 16px
+        font-weight: 500
+        line-height: 100%
+        display: block
+        margin: 0 auto
+        transition: all 0.2s ease-out
+        &:hover
+            background: rgb(255, 255, 255)
+            border: 1px solid rgb(54, 169, 225)
+            color: rgb(54, 169, 225)
+            cursor: pointer
+            padding: 15px 30px
+
+.margin1
+    margin-left: 30px
+
+.margin2
+    margin-left: 57px
 
 .banner2-section
     margin-bottom: 120px

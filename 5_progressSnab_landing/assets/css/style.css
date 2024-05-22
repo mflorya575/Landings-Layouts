@@ -247,6 +247,15 @@ body {
 
 .team-section__card:hover {
   cursor: pointer;
+  background: #f7f7f7;
+}
+
+.team-section__card:hover .team-section__icon {
+  display: none;
+}
+
+.team-section__card:hover .team-section__btn {
+  display: inline-block;
 }
 
 .team-section__text1 {
@@ -296,6 +305,7 @@ body {
   height: 48px;
   margin: 16px 16px 0 0;
   transition: all 0.2s ease-out;
+  display: none;
 }
 
 .team-section__btn:hover {
@@ -307,6 +317,196 @@ body {
 
 .team-section__br {
   display: none;
+}
+
+.team-section__modal {
+  width: 513px;
+  min-height: 607px;
+  border: none;
+  padding: 40px;
+  border-radius: 8px;
+  background: white;
+}
+
+.team-section__block-krest {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-section__icon-krest:hover {
+  cursor: pointer;
+}
+
+.team-section__title-dialog {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.team-section__form-group1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.team-section__form-group2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.team-section__form-group3 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  gap: 32px;
+}
+
+.team-section__input1 {
+  width: 240px;
+  height: 40px;
+  background: #f7f7f7;
+  border: 1px solid #f0f4fa;
+  border-radius: 12px 6px 12px 6px;
+  padding: 12px 0 12px 20px;
+}
+
+.team-section__input1::placeholder {
+  color: #b5b9bf;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.team-section__input2 {
+  width: 240px;
+  height: 40px;
+  background: #f7f7f7;
+  border: 1px solid #f0f4fa;
+  border-radius: 12px 6px 12px 6px;
+  padding: 12px 0 12px 20px;
+}
+
+.team-section__input2::placeholder {
+  color: #b5b9bf;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.team-section__textarea {
+  width: 260px;
+  height: 88px;
+  background: #f7f7f7;
+  border: 1px solid #f0f4fa;
+  border-radius: 12px 6px 12px 6px;
+  padding: 12px 0 12px 20px;
+  resize: none;
+}
+
+.team-section__textarea::placeholder {
+  color: #b5b9bf;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.team-section__text-dialog {
+  color: #455163;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  /* position: relative */
+}
+
+.team-section__icon-red {
+  position: absolute;
+  top: 15px;
+  left: 38px;
+}
+
+.team-section__hr {
+  border: 1px solid #f2f2f2;
+  margin-bottom: 24px;
+}
+
+.team-section__block-skrepka {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 27px;
+}
+
+.team-section__link {
+  text-decoration: none;
+  color: #1d2e89;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.team-section__block-red {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 0;
+}
+
+.team-section__text-r {
+  color: #1f2937;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.team-section__block-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.team-section__text-check {
+  color: #1f2937;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.team-section__btn-dialog {
+  border-radius: 12px 6px 12px 6px;
+  background: #36a9e1;
+  border: none;
+  padding: 16px 32px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.2s ease-out;
+}
+
+.team-section__btn-dialog:hover {
+  background: white;
+  border: 1px solid #36a9e1;
+  color: #36a9e1;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+.margin1 {
+  margin-left: 30px;
+}
+
+.margin2 {
+  margin-left: 57px;
 }
 
 .banner2-section {
