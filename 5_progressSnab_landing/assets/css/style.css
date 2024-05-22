@@ -805,4 +805,63 @@ body {
   .banner-mobile__img2 {
     width: 105px;
   }
+  /* modal */
+  .team-section__title-dialog {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .team-section__modal {
+    padding: 24px;
+    border-radius: 8px;
+  }
+  .team-section__form-group1 {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .team-section__form-group2 {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .team-section__form-group3 {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .team-section__icon-red {
+    top: 0;
+  }
+  .team-section__text-dialog {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .margin2 {
+    margin-left: 134px;
+  }
+  .team-section__hr {
+    margin-bottom: 16px;
+  }
+  .team-section__block-skrepka {
+    margin-bottom: 16px;
+  }
+  .team-section__link {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 120%;
+  }
+  .team-section__text-r {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .team-section__text-check {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .team-section__block-check {
+    margin-bottom: 0;
+  }
 }
