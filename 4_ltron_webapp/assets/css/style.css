@@ -64,3 +64,42 @@ body {
 #blue {
   color: #85045e;
 }
+
+.second-section {
+  margin-bottom: 124px;
+}
+
+.second-section__title {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.second-section__wrapper {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.second-section__card {
+  margin-bottom: 30px;
+}
+
+.second-section__text1 {
+  text-align: center;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.second-section__text2 {
+  text-align: center;
+  color: #8a8a8a;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 140%;
+}
