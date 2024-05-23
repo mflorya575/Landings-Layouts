@@ -136,3 +136,46 @@ body {
   font-weight: 400;
   line-height: 25px;
 }
+
+.fifth-section {
+  margin-bottom: 90px;
+}
+
+.fifth-section__title {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 100%;
+  margin-bottom: 33px;
+  text-align: center;
+}
+
+.fifth-section__wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fifth-section__card {
+  margin-bottom: 30px;
+}
+
+.fifth-section__card img {
+  border-radius: 10px;
+}
+
+.fifth-section__text1 {
+  text-align: center;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.fifth-section__text2 {
+  text-align: center;
+  color: #8a8a8a;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 140%;
+}
