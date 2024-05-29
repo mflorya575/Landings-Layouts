@@ -1,0 +1,67 @@
+.services {
+    padding: 100px 0;
+    padding-bottom: 150px;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 434px;
+        height: 414px;
+        bottom: -278px;
+        left: 0;
+        transform: rotate(180deg);
+        background: url('../images/branch/branch1.png') center center/contain no-repeat;
+    }
+    
+    &__list {
+        margin-top: 100px;
+    }
+    
+    @media (max-width: 1500px) {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 334px;
+            height: 314px;
+            bottom: -168px;
+            left: -10px;
+            transform: rotate(180deg);
+        }
+    }
+    @media (max-width: 1100px) {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 234px;
+            height: 214px;
+            bottom: -110px;
+            left: -10px;
+            transform: rotate(180deg);
+        }
+    }
+    @media (max-width: 992px) {
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 174px;
+            height: 214px;
+            bottom: -110px;
+            left: -10px;
+            transform: rotate(180deg);
+        }
+    }
+    @media (max-width: 1330px) {
+        &__list {
+            li {
+                &:nth-child(3) {
+                    order: 3;
+                }
+            }
+        }
+    }
+}

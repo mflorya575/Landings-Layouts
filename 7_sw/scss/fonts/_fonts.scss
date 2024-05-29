@@ -1,0 +1,10 @@
+// Подключение шрифтов
+// Флаг &display=swap необходим для коректного отображения шрифтов
+@import url('https://fonts.googleapis.com/css?family=Bad+Script:regular');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900');
+
+// Шрифт по умолчанию
+$defaultFonts: 'Bad Script', sans-serif;
+
+// Остальные шрифты
+$Montserrat: 'Montserrat', sans-serif;

@@ -1,0 +1,77 @@
+.cost {
+    &__label {
+        margin-top: 100px;
+        border-radius: 25px;
+        background: #9bb189;
+        font-family: $Montserrat;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 139%;
+        color: #fff;
+        padding: 59px 61px;
+
+        &-title {
+            max-width: 745px;
+        }
+
+        p {
+            font-size: 24px;
+
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__list {
+        margin-top: 100px;
+
+        li {
+            border-radius: 25px;
+            padding: 46px 71px;
+
+            &:not(:last-child) {
+                margin-bottom: 100px;
+            }
+
+            input {
+                text-decoration: underline;
+                font-family: $Montserrat;
+                background: transparent;
+                color: #fff;
+                width: 100%;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 222%;
+
+                &::placeholder {
+                    margin-left: 10px;
+                    color: #fff;
+                }
+
+                &:focus {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    &__add {
+        margin-top: 50px;
+        padding: 25px 72px;
+        font-family: $Montserrat;
+
+        border: 1.72px solid #9bb189;
+        border-radius: 29px;
+
+        font-weight: 500;
+        font-size: 32px;
+        color: #545454;
+        display: flex;
+        align-items: center;
+        svg {
+            display: block;
+            margin-right: 44px;
+        }
+    }
+}
