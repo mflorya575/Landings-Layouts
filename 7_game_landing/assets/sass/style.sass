@@ -1,0 +1,96 @@
+@import "normalizes.scss"
+@import "resets.scss"
+    
+*
+    box-sizing: border-box
+
+$color-blue: #4B9EFF
+$color-orange: #e7b28c
+
+@font-face
+    font-family: 'Inter'
+    src: url(../fonts/Inter-Medium.ttf)
+    font-weight: 500
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: 'Inter'
+    src: url(../fonts/Inter-Regular.ttf)
+    font-weight: 400
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: 'Inter'
+    src: url(../fonts/Inter-Light.ttf)
+    font-weight: 300
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: 'Inter'
+    src: url(../fonts/Inter-Semibold.ttf)
+    font-weight: 600
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: 'Inter'
+    src: url(../fonts/Inter-Bold.ttf)
+    font-weight: 700
+    font-style: normal
+    font-display: swap
+
+html
+    font-family: 'Inter', sans-serif
+    font-weight: 500
+
+body
+    position: relative
+    overflow-x: hidden
+    background: linear-gradient(180.00deg, rgb(240, 215, 188),rgb(211, 158, 128) 100%)
+    
+.container
+    position: relative
+    max-width: 1220px
+    margin: 0 auto
+
+.header
+    padding-top: 90px
+    display: flex
+    align-items: center
+    margin-bottom: 130px
+    &__logo
+        margin-right: 73px
+    &__ul
+        display: flex
+        align-items: center
+        margin-right: 400px
+    &__li
+        margin-right: 82px
+    &__link
+        text-decoration: none
+        color: rgb(178, 75, 0)
+        font-size: 20px
+        font-weight: 600
+        line-height: 24px
+        &:hover
+            text-decoration: underline
+    &__button
+        text-decoration: none
+        transition: .3s all
+        color: rgb(178, 75, 0)
+        font-size: 20px
+        font-weight: 600
+        line-height: 24px
+        padding: 10px 76px
+        border: 1px solid rgb(104, 55, 20)
+        border-radius: 8px
+        background: rgba(131, 83, 49, 0)
+        &:hover
+            background: rgb(206, 172, 147)
+            cursor: pointer
+
+
+
