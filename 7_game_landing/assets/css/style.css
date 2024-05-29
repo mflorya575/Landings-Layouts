@@ -501,3 +501,50 @@ body {
   background: #ceac93;
   cursor: pointer;
 }
+
+.main-section {
+  /* min-height: 100px */
+  margin-bottom: 150px;
+}
+
+.main-section__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.main-section__img {
+  margin-right: 122px;
+}
+
+.main-section__title {
+  color: #683714;
+  font-size: 66px;
+  font-weight: 800;
+  line-height: 80px;
+  margin-bottom: 10px;
+}
+
+.main-section__text {
+  color: #b24b00;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 35px;
+}
+
+.main-section__btn {
+  color: #fff4e7;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  border-radius: 8px;
+  background: rgba(104, 55, 20, 0.76);
+  border: none;
+  padding: 18px 71px;
+  transition: .3s all;
+}
+
+.main-section__btn:hover {
+  background: rgba(189, 153, 128, 0.76);
+  cursor: pointer;
+}
