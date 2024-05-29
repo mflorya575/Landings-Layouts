@@ -435,8 +435,9 @@ table {
 }
 
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  background: linear-gradient(180deg, #f0d7bc, #d39e80 100%);
 }
 
 body {
@@ -547,4 +548,30 @@ body {
 .main-section__btn:hover {
   background: rgba(189, 153, 128, 0.76);
   cursor: pointer;
+}
+
+.second-section {
+  margin-bottom: 150px;
+}
+
+.second-section__title {
+  margin-bottom: 67px;
+  text-align: center;
+  color: #865a39;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 55px;
+}
+
+.second-section__img1 {
+  margin-right: 146px;
+  margin-bottom: 84px;
+}
+
+.second-section__img2 {
+  margin-bottom: 84px;
+}
+
+.second-section__img3 {
+  margin-right: 146px;
 }
