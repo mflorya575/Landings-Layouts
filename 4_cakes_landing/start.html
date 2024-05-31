@@ -21,7 +21,7 @@
                 </ul>
             </nav>
             <div class="header__block">
-                <p class="header__text1">+7 (967) 555-00-06</p>
+                <a href="#" class="header__text1">+7 (967) 555-00-06</a>
                 <p class="header__text2">с 10:00 до 21:00</p>
             </div>
         </header>
@@ -44,7 +44,7 @@
                     </ul>
                 </nav>
                 <div class="mobile-menu__block2222">
-                    <p class="mobile-menu__text1">+7 (967) 555-00-06</p>
+                    <a href="#" class="mobile-menu__text1">+7 (967) 555-00-06</a>
                     <p class="mobile-menu__text2">с 10:00 до 21:00</p>
                 </div>
             </div>
@@ -183,32 +183,26 @@
                 <div class="fifth-section__card">
                     <img src="./assets/images/cake11.png" alt="торт">
                     <p class="fifth-section__text1">Красный бархат</p>
-                    <p class="fifth-section__text2">1350 руб./кг</p>
                 </div>
                 <div class="fifth-section__card">
                     <img src="./assets/images/cake22.png" alt="торт">
-                    <p class="fifth-section__text1">Клубничный лимонадт</p>
-                    <p class="fifth-section__text2">7 600 ₽</p>
+                    <p class="fifth-section__text1">Клубничный лимонад</p>
                 </div>
                 <div class="fifth-section__card">
                     <img src="./assets/images/cake33.png" alt="торт">
                     <p class="fifth-section__text1">Йогуртовый</p>
-                    <p class="fifth-section__text2">7 600 ₽</p>
                 </div>
                 <div class="fifth-section__card">
                     <img src="./assets/images/cake44.png" alt="торт">
                     <p class="fifth-section__text1">Черри Бомб</p>
-                    <p class="fifth-section__text2">1350 руб./кг</p>
                 </div>
                 <div class="fifth-section__card">
                     <img src="./assets/images/cake55.png" alt="торт">
                     <p class="fifth-section__text1">Нежность</p>
-                    <p class="fifth-section__text2">7 600 ₽</p>
                 </div>
                 <div class="fifth-section__card">
                     <img src="./assets/images/cake66.png" alt="торт">
                     <p class="fifth-section__text1">Сникерс</p>
-                    <p class="fifth-section__text2">7 600 ₽</p>
                 </div>
             </div>
 
@@ -232,7 +226,7 @@
                         <p class="sixth-section__text1">Режим работы</p>
                         <p class="sixth-section__text2">Ежедневно с 10:00 до 20:00</p>
                     </div>
-                    <button class="main-section__btn sixth-btn btn">Заказать консультацию</button>
+                    <button class="main-section__btn sixth-btn main-btn btn">Заказать консультацию</button>
                 </div>
                 <div class="sixth-section__wrapper-right">
                     <iframe class="sixth-section__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A23d4f6df298598a9d7f3cacfca16c4f82c4acd3f10a1b85b35a82d46cec12e21&amp;source=constructor" width="808" height="449" frameborder="0"></iframe>
@@ -241,6 +235,35 @@
 
         </div>
     </section>
+    <!-- Диалоговое окно -->
+    <dialog class="team-section__modal">
+        <div class="team-section__block-krest">
+            <div></div>
+            <img src="./assets/icons/dialog-krest.svg" alt="крестик" class="team-section__icon-krest">
+        </div>
+        <!-- Заголовок -->
+        <h5 class="team-section__title-dialog">Получите консультацию сейчас</h5>
+        <p class="team-section__text-dialog">
+            Оставьте свой номер и наш менеджер<br>
+            свяжется с вами в течение получаса
+        </p>
+        <!-- Форма -->
+        <form action="send.php" method="POST">
+            <div class="team-section__form-group1">
+                <input class="team-section__input1" type="text" required="" name="username" placeholder="Ваше имя" />
+            </div>
+            <div class="team-section__form-group2">
+                <input class="team-section__input2" type="tel" required="" name="tel" placeholder="+7 (___) ___ - __ - __" />
+            </div>
+            <div class="team-section__form-group3">
+                <textarea name="text" id="" placeholder="Ваш комментарий (цвет, вкус)" rows="10" class="team-section__textarea"></textarea>
+            </div>
+            <div class="team-section__form-group">
+                <button type="submit" class="team-section__btn main-section__btn" name="login">Отправить</button>
+            </div>
+
+        </form>
+    </dialog>
     <!-- Футер -->
     <footer class="footer-section">
         <div class="container">
@@ -249,9 +272,9 @@
                 <div class="footer-section__block">
                     <div class="footer-section__block-tel">
                         <img src="./assets/icons/tel.svg" alt="телефон" class="footer-section__img-tel">
-                        <p class="footer-section__text">+7 (967) 555-00-06</p>
+                        <a href="#" class="footer-section__text">+7 (967) 555-00-06</a>
                     </div>
-                    <button class="main-section__btn btn">Заказать консультацию</button>
+                    <button class="main-section__btn main-btn btn">Заказать консультацию</button>
                 </div>
             </div>
         </div>
@@ -285,7 +308,42 @@
 
         </form>
     </dialog>
+
+    <div id="popup">
+        <div class="popup__block">
+            <div></div>
+            <img class="close" onclick="document.getElementById('popup').style.display='none';" src="./assets/icons/dialog-krest.svg" alt="крест">
+        </div>
+        <p id="popupMessage" class="ttt">Спасибо за заявку</p>
+        <p id="popupMessage" class="ppp">Мы свяжемся с вами<br> в ближайшее время</p>
+    </div>
     
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Предотвращаем отправку формы по умолчанию
+
+            const formData = new FormData(this);
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'send_to_telegram.php', true);
+
+            xhr.onload = function() {
+                const response = JSON.parse(this.responseText);
+                const popup = document.getElementById('popup');
+                const popupMessage = document.getElementById('popupMessage');
+
+                if (response.status === 'success') {
+                    popupMessage.textContent = response.message;
+                    popup.style.display = 'block';
+                } else {
+                    popupMessage.textContent = response.message;
+                    popup.style.display = 'block';
+                }
+            };
+
+            xhr.send(formData);
+        });
+    </script>
     <script>
         const openModal = document.querySelector('.btn')
 const closeModal = document.querySelector('.team-section__icon-krest')

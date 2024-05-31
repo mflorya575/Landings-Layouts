@@ -1,40 +1,50 @@
 <?php
+// Получим данные с элементов формы
+$username = $_POST['username'];
+$tel = $_POST['tel'];
+$text = $_POST['text'];
 
-    // получим данные с элементов формы
+// Обработаем полученные данные
+$username = htmlspecialchars($username); // Преобразование символов в сущности (мнемоники)
+$tel = htmlspecialchars($tel);
+$text = htmlspecialchars($text);
 
-    $username = $_POST['username'];
-    $tel = $_POST['tel'];
-    $text = $_POST['text'];
+$username = urldecode($username); // Декодирование URL
+$tel = urldecode($tel);
+$text = urldecode($text);
 
-    // обработаем полученные данные
+$username = trim($username); // Удаление пробельных символов с обеих сторон
+$tel = trim($tel);
+$text = trim($text);
 
-    $username = htmlspecialchars($username); // преобразование символов в сущности (мнемоники)
-    $tel = htmlspecialchars($tel);
-    $text = htmlspecialchars($text);
+// Данные для отправки в Telegram
+$botToken = "7021272471:AAH83a9-eBFl81My3iLHVSvTJBLDvIb0MiA"; //  токен бота
+$chatId = "-4283477389"; // ID бота
 
-    $username = urldecode($username); // декодирование URL
-    $tel = urldecode($tel);
-    $text = urldecode($text);
+// Сообщение, которое будет отправлено
+$message = "Имя: ".$username."\nТелефон: ".$tel."\nТекст: ".$text;
 
-    $username = trim($username); // удаление пробельных символов с обеих сторон
-    $tel = trim($tel);
-    $text = trim($text);
+// URL для отправки сообщения через API Telegram
+$url = "https://api.telegram.org/bot".$botToken."/sendMessage?chat_id=".$chatId."&text=".urlencode($message);
 
-    // добавляем данные на почту
+// Инициализация cURL сессии
+$ch = curl_init();
 
-    if (mail("mih2303@mail.ru",
-             "Новое письмо с сайта",
-             "Имя: ".$username."\n".
-             "Телефон: ".$tel."\n".
-             "Текст: ".$text."\n",
-             "From no-reply@mydomain.ru \r\n")
-    
-    ) {
-        echo ('Письмо успешно отравлено!');
-    }
-    else {
-        echo ('Есть ошибки! Проверьте данные...');
-    }
+// Установка параметров cURL
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
+// Выполнение cURL запроса и получение ответа
+$output = curl_exec($ch);
 
+// Закрытие cURL сессии
+curl_close($ch);
+
+// Проверка результата отправки
+$response = json_decode($output, true);
+if ($response && isset($response['ok']) && $response['ok']) {
+    echo json_encode(['status' => 'success', 'message' => 'Сообщение успешно отправлено в Telegram!']);
+} else {
+    echo json_encode(['status' => 'error', 'message' => 'Ошибка! Проверьте данные...']);
+}
 ?>

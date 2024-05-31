@@ -545,6 +545,8 @@ body {
 
 .header__link {
   /* margin-right: 70px */
+  font-family: 'Circe';
+  text-decoration: none;
   color: #8a8a8a;
   font-size: 14px;
   font-weight: 300;
@@ -558,10 +560,15 @@ body {
 
 .header__text1 {
   color: #1e1e1e;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
   margin-bottom: 6px;
+}
+
+.header__text1:hover {
+  text-decoration: underline;
 }
 
 .header__text2 {
@@ -892,6 +899,11 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 100%;
+  text-decoration: none;
+}
+
+.footer-section__text:hover {
+  text-decoration: underline;
 }
 
 .team-section__modal {
@@ -984,6 +996,44 @@ body {
 .team-section__btn {
   display: block;
   margin: 0 auto;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 600px;
+  height: 170px;
+  border-radius: 15px;
+  background: white;
+}
+
+.popup__block {
+  display: flex;
+  justify-content: end;
+  color: #8a8a8a;
+  padding: 15px 20px 0 0;
+  font-size: 60px;
+}
+
+.ttt {
+  text-align: center;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.ppp {
+  text-align: center;
+  color: #8a8a8a;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 140%;
 }
 
 @media (max-width: 1250px) {
@@ -1098,6 +1148,44 @@ body {
   .main-section__btn {
     font-size: 10px;
     padding: 12px 17px;
+  }
+  .team-section__modal {
+    width: 290px;
+  }
+  .team-section__title-dialog {
+    font-size: 14px;
+  }
+  .team-section__text-dialog {
+    font-size: 14px;
+  }
+  .team-section__input1 {
+    width: 260px;
+  }
+  .team-section__input1:placeholder {
+    font-size: 14px;
+  }
+  .team-section__input2 {
+    width: 260px;
+  }
+  .team-section__input2:placeholder {
+    font-size: 14px;
+  }
+  .team-section__textarea {
+    width: 260px;
+    height: 70px;
+  }
+  .team-section__textarea:placeholder {
+    font-size: 14px;
+  }
+  #popup {
+    width: 280px;
+    height: 150px;
+  }
+  .ttt {
+    font-size: 14px;
+  }
+  .ppp {
+    font-size: 14px;
   }
 }
 

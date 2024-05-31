@@ -133,6 +133,8 @@ body
             margin-right: 0
     &__link
         /* margin-right: 70px */
+        font-family: 'Circe'
+        text-decoration: none
         color: rgb(138, 138, 138)
         font-size: 14px
         font-weight: 300
@@ -142,10 +144,13 @@ body
             text-decoration: underline
     &__text1
         color: rgb(30, 30, 30)
+        text-decoration: none
         font-size: 18px
         font-weight: 400
         line-height: 100%
         margin-bottom: 6px
+        &:hover
+            text-decoration: underline
     &__text2
         color: rgb(138, 138, 138)
         font-size: 12px
@@ -383,6 +388,9 @@ body
         font-size: 15px
         font-weight: 400
         line-height: 100%
+        text-decoration: none
+        &:hover
+            text-decoration: underline
 
 .team-section
     &__modal
@@ -455,6 +463,40 @@ body
     &__btn
         display: block
         margin: 0 auto
+
+#popup
+    display: none
+    position: fixed
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    z-index: 1000
+    width: 600px
+    height: 170px
+    border-radius: 15px
+    background: rgb(255, 255, 255)
+
+.popup__block
+    display: flex
+    justify-content: end
+    color: rgb(138, 138, 138)
+    padding: 15px 20px 0 0
+    font-size: 60px
+
+.ttt
+    text-align: center
+    color: rgb(39, 39, 39)
+    font-size: 18px
+    font-weight: 300
+    line-height: 140%
+    margin-bottom: 15px
+
+.ppp
+    text-align: center
+    color: rgb(138, 138, 138)
+    font-size: 18px
+    font-weight: 300
+    line-height: 140%
 
 @media (max-width: 1250px)
     .container
@@ -536,6 +578,32 @@ body
     .main-section__btn
         font-size: 10px
         padding: 12px 17px
+    .team-section__modal
+        width: 290px
+    .team-section__title-dialog
+        font-size: 14px
+    .team-section__text-dialog
+        font-size: 14px
+    .team-section__input1
+        width: 260px
+        &:placeholder
+            font-size: 14px
+    .team-section__input2
+        width: 260px
+        &:placeholder
+            font-size: 14px
+    .team-section__textarea
+        width: 260px
+        height: 70px
+        &:placeholder
+            font-size: 14px
+    #popup
+        width: 280px
+        height: 150px
+    .ttt
+        font-size: 14px
+    .ppp
+        font-size: 14px
 
 @media (max-width: 470px)
     .main-section__title
