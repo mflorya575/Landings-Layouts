@@ -27,6 +27,7 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::Global Stylesheets Bundle(used by all pages)-->
 		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="assets/css/css.css">
 		<!--end::Global Stylesheets Bundle-->
 	</head>
 	<!--end::Head-->
@@ -83,6 +84,44 @@ License: For each use you must have a valid license purchased only from above li
 										</span>
 										<span class="menu-title">Dashboard</span>
 									</a>
+
+									<div class="drop-wrapper">
+										<div class="dropdown">
+											<button onclick="toggleDropdown('myDropdown')" class="dropbtn">Данные по базе</button>
+											<div id="myDropdown" class="dropdown-content">
+												<a href="#"><span id="w-word">Начальная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Конечная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Количество транзакций: </span>45 45 43785</a>
+											</div>
+										</div>
+										<div class="dropdown">
+											<button onclick="toggleDropdown('myDropdown2')" class="dropbtn">Загрузка данных 001</button>
+											<div id="myDropdown2" class="dropdown-content">
+												<a href="#"><span id="w-word">Начальная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Конечная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Количество транзакций: </span>45 45 43785</a>
+											</div>
+										</div>
+										<div class="dropdown">
+											<button onclick="toggleDropdown('myDropdown3')" class="dropbtn">Загрузка данных E100</button>
+											<div id="myDropdown3" class="dropdown-content">
+												<a href="#"><span id="w-word">Начальная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Конечная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Количество транзакций: </span>45 45 43785</a>
+											</div>
+										</div>
+										<div class="dropdown">
+											<button onclick="toggleDropdown('myDropdown4')" class="dropbtn">Загрузка данных csv</button>
+											<div id="myDropdown4" class="dropdown-content">
+												<a href="#"><span id="w-word">Начальная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Конечная дата: </span>45 45 43785</a>
+												<a href="#"><span id="w-word">Количество транзакций: </span>45 45 43785</a>
+											</div>
+										</div>
+										
+									</div>
+
+
 								</div>
 								<div class="menu-item">
 									<a class="menu-link" href="landing.html">
@@ -12946,6 +12985,7 @@ License: For each use you must have a valid license purchased only from above li
 		<script src="assets/js/custom/apps/chat/chat.js"></script>
 		<script src="assets/js/custom/modals/create-app.js"></script>
 		<script src="assets/js/custom/modals/upgrade-plan.js"></script>
+		<script src="assets/js/js.js"></script>
 		<!--end::Page Custom Javascript-->
 		<!--end::Javascript-->
 	</body>
